@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>tomato.png</PackageIcon>
+    <Authors>aprogrammer.ru</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="tomato.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="tomato.ico" />
+    <Resource Include="tomato.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="tomato.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
