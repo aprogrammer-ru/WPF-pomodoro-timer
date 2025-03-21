@@ -8,6 +8,7 @@
     <UseWPF>true</UseWPF>
     <PackageIcon>tomato.png</PackageIcon>
     <Authors>aprogrammer.ru</Authors>
+	<EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
 
   <ItemGroup>
